@@ -5,7 +5,6 @@ option = input("> ").strip().lower()
 
 match option:
     case "1":
-        # Opción 1: % de disco usado
         used = int(input("Used %: "))
         if used > 90:
             print("CRITICAL: Disk usage is over 90%")
@@ -15,11 +14,9 @@ match option:
             print("OK: Disk usage is normal")
 
     case "2":
-        # Opción 2: Usuarios conectados (resultado simulado)
         print("Active users: admin, user1, guest")
 
     case "3":
-        # Opción 3: Validar IP (debe tener 4 partes separadas por puntos)
         ip = input("Enter IP: ").strip()
         parts = ip.split(".")
         if len(parts) == 4:
@@ -28,11 +25,9 @@ match option:
             print("Error: Invalid IP address. It must have 4 parts.")
 
     case "q":
-        # Salir
         print("Goodbye!")
 
     case _:
-        # Opción no reconocida
         print("Unknown option")
 
 # act02_menu_if.py
