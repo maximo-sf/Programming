@@ -1,41 +1,42 @@
-n = int(input("n: "))
+n = int(input("Introduce un número: "))
+
 while n >= 0:
-    end = ", " if n > 0 else "\n"
-    print(n, end=end)
-    n -= 1
+    print(n, end=", ")
+    n = n - 1
+print()
 
 # ----------------------------------------------------------------------
 
 suma = 0
 contador = 0
+num = float(input("Introduce un número (0 para terminar): "))
 
-while True:
-    num = float(input("Introduce un número (0 para terminar): "))
-    if num == 0:
-        break
-    suma += num
-    contador += 1
+while num != 0:
+    suma = suma + num
+    contador = contador + 1
+    num = float(input("Introduce otro número (0 para terminar): "))
 
 if contador > 0:
     media = suma / contador
-    print(f"Suma: {suma}")
-    print(f"Media: {media}")
+    print("Suma:", suma)
+    print("Media:", media)
 else:
-    print("No se introdujeron números para calcular la media.")
+    print("No has introducido ningún número.")
 
 # ----------------------------------------------------------------------
 
-n = int(input("Introduce un número para ver su tabla de multiplicar: "))
+n = int(input("Introduce un número para su tabla: "))
 
 for i in range(1, 11):
-    print(f"{n} x {i} = {n * i}")
+    resultado = n * i
+    print(n, "x", i, "=", resultado)
 
-# ------------------------------
+# ----------------------------------------------------------------------
 
-puerto = int(input("Introduce un puerto (1-65535): "))
+puerto = int(input("Introduce un puerto (1 a 65535): "))
 
 while puerto < 1 or puerto > 65535:
-    print("Puerto inválido. Debe estar entre 1 y 65535.")
-    puerto = int(input("Introduce un puerto (1-65535): "))
+    print("Error: Puerto no válido.")
+    puerto = int(input("Prueba de nuevo (1 a 65535): "))
 
-print(f"Puerto válido registrado: {puerto}")
+print("¡Puerto correcto! Has elegido:", puerto)
