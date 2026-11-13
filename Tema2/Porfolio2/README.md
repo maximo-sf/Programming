@@ -70,6 +70,8 @@ Uso de ciclos `for` anidados para generar figuras geométricas y tablas de datos
 > En el triángulo rectángulo (y en el invertido), el bucle interno imprime $1$ asterisco en la primera fila, $2$ en la segunda, $3$ en la tercera, y así sucesivamente hasta $n$. Esto corresponde a la suma de una progresión aritmética (número triangular), por lo que el `print()` interno se ejecuta exactamente:
 > $$\sum_{i=1}^{n} i = \frac{n(n + 1)}{2} \text{ veces}$$
 
+![Ejecución Actividad 4](Activity4/Activity4.png)
+
 ### 🔹 Actividad 5: Control de Acceso y Autenticación (`Activity5/Activity5.py`)
 
 Simulación de un sistema de inicio de sesión con límite de intentos mediante bucles controlados:
