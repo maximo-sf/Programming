@@ -13,7 +13,7 @@ El proyecto está organizado en directorios independientes por actividad, incluy
 | `Activity1/` | `Activity1.py` | `Activity1.png` | `if-elif-else`, manejo de excepciones (`try-except`), operadores lógicos (`and`, `or`, `%`) |
 | `Activity2/` | `Activity2.py` | `Activity2.png` | `match-case` (Python 3.10+), equivalencia con `if-elif-else`, manipulación de cadenas (`split`) |
 | `Activity3/` | `Activity3.py` | `Activity3.png` | `while`, `for`, valor centinela (`sentinel`), prevención de división por cero |
-| `Activity4/` | `Activity4.py` | — | Bucles anidados (`for`), formateo alineado con `f-strings`, patrones geométricos |
+| `Activity4/` | `Activity4.py` | `Activity4.png` | Bucles anidados (`for`), formateo alineado con `f-strings`, patrones geométricos |
 | `Activity5/` | `Activity5.py` | `Activity5.png` | Control de flujo avanzado (`break`, `continue`, `while-else`), validación de credenciales |
 | `Anexo/` | `Anexo.py` | — | Estructura condicional alternativa, evaluadores lógicos compuestos (`or`) |
 
