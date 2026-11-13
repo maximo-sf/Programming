@@ -1,6 +1,3 @@
-# act01_selection.py 
-# Tareas 1 y 2: Mark Calculator
-
 try:
     mark = float(input("Enter a mark (0-10): "))
 
