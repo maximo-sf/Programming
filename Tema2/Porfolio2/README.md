@@ -88,7 +88,7 @@ Simulación de un sistema de inicio de sesión con límite de intentos mediante 
 
 Simulación de una calculadora con sistema de control de errores
 
-![Ejecución Actividad 6](Activity6/Activity6.png)
+![Ejecución Actividad 6](Activity6/Activity6.PNG)
 
 ### 🔹 Anexo: Menú de Control Simplificado (`Anexo/Anexo.py`)
 
