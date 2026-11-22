@@ -15,6 +15,7 @@ El proyecto está organizado en directorios independientes por actividad, incluy
 | `Activity3/` | `Activity3.py` | `Activity3.png` | `while`, `for`, valor centinela (`sentinel`), prevención de división por cero |
 | `Activity4/` | `Activity4.py` | `Activity4.png` | Bucles anidados (`for`), formateo alineado con `f-strings`, patrones geométricos |
 | `Activity5/` | `Activity5.py` | `Activity5.png` | Control de flujo avanzado (`break`, `continue`, `while-else`), validación de credenciales |
+| `Activity6/` | `Activity6.py` | `Activity6.png` | Una calculadora con control de errores para diferentes tipos de errores |
 | `Anexo/` | `Anexo.py` | — | Estructura condicional alternativa, evaluadores lógicos compuestos (`or`) |
 
 ## 📝 Detalle de las Actividades
@@ -82,6 +83,12 @@ Simulación de un sistema de inicio de sesión con límite de intentos mediante 
 * **Bloqueo de cuenta (`while-else`):** Si el bucle agota todos los intentos sin que se ejecute el `break`, entra en el bloque `else` y muestra el mensaje de cuenta bloqueada (`Account locked`).
 
 ![Ejecución Actividad 5](Activity5/Activity5.png)
+
+### 🔹 Actividad 6: Control de Acceso y Autenticación (`Activity5/Activity5.py`)
+
+Simulación de una calculadora con sistema de control de errores
+
+![Ejecución Actividad 6](Activity6/Activity6.png)
 
 ### 🔹 Anexo: Menú de Control Simplificado (`Anexo/Anexo.py`)
 
